@@ -73,7 +73,7 @@
 </head>
 <body>
     <div class="container">
-        <h1>THỜI KHÓA BIỂU HỌC TẬP HK2 2025-2026</h1>
+        <h1>THỜI KHÓA BIỂU HỌC TẬP HÈ 2025-2026</h1>
         
         <?php
         // Cấu hình thông tin riêng biệt, bao gồm cả class màu nền tiêu đề đặc trưng
