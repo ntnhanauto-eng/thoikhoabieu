@@ -28,10 +28,10 @@ $today_field = ($current_w == 0) ? 'cn' : 'thu' . ($current_w + 1);
         /* --- KHUNG THỜI KHÓA BIỂU BÉ --- */
         .kid-section { padding: 20px; border-radius: 12px; margin-bottom: 35px; position: relative; background: #fff; transition: opacity 0.3s; }
         
-        /* CẤU HÌNH MÀU NỀN TOÀN KHUNG ĐẬM ĐÀ */
-        /* Bé 1: Trâm Anh - Màu Xanh Lá đậm */
-        .kid-1-title { background: #d4edda !important; border: 2px solid #218838; }
-        /* Bé 2: Thành Phát - ĐÃ ĐỔI SANG MÀU XANH DƯƠNG ĐẬM RÕ NÉT */
+        /* GIỮ NGUYÊN MÀU TRÂM ANH - ĐỔI MÀU THÀNH PHÁT */
+        /* Bé 1: Trâm Anh - Màu Xanh Lá giống code cũ của bạn */
+        .kid-1-title { background: #e8f5e9 !important; border: 2px solid #28a745; }
+        /* Bé 2: Thành Phát - Đổi sang nền Xanh Dương rõ nét, viền xanh bích */
         .kid-2-title { background: #cfe2ff !important; border: 2px solid #0b5ed7; }
 
         /* --- NÚT BẤM IN --- */
@@ -130,7 +130,7 @@ $today_field = ($current_w == 0) ? 'cn' : 'thu' . ($current_w + 1);
 <body>
     <div class="container">
         <h1>Thời Khóa Biểu Học Tập</h1>
-        <div class="subtitle">Học Kỳ Hè • Năm Học 2025-2026</div>
+        <div class="subtitle">Học Kỳ 2 • Năm Học 2025-2026</div>
         
         <div class="tab-container">
             <button class="tab-btn active" data-target="1">Trâm Anh 5/4</button>
@@ -140,7 +140,7 @@ $today_field = ($current_w == 0) ? 'cn' : 'thu' . ($current_w + 1);
         <?php
         $kids = [
             '1' => ['ten' => 'TRÂM ANH 5/4', 'color' => '#28a745', 'bg_class' => 'kid-1-title'], 
-            '2' => ['ten' => 'THÀNH PHÁT 9/3', 'color' => '#0d6efd', 'bg_class' => 'kid-2-title'] // Đổi màu chính sang màu xanh dương chuẩn
+            '2' => ['ten' => 'THÀNH PHÁT 9/3', 'color' => '#0d6efd', 'bg_class' => 'kid-2-title']
         ];
 
         foreach ($kids as $id_be => $info):
